@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_audio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <filter id="shadow_audio" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg_audio)" />
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.6" />
+  
+  <!-- Earbuds Case + Earbuds Graphic -->
+  <g filter="url(#shadow_audio)">
+    <!-- Wireless Charging Case -->
+    <g transform="translate(130, 140)">
+      <rect x="0" y="0" width="140" height="110" rx="36" fill="#ffffff" stroke="#475569" stroke-width="2.5" />
+      <line x1="5" y1="38" x2="135" y2="38" stroke="#cbd5e1" stroke-width="2" />
+      <circle cx="70" cy="55" r="4" fill="#3b82f6" />
+    </g>
+
+    <!-- Left Earbud -->
+    <g transform="translate(125, 75)">
+      <!-- Earbud head -->
+      <ellipse cx="22" cy="22" rx="18" ry="15" fill="#ffffff" stroke="#475569" stroke-width="2.5" />
+      <ellipse cx="26" cy="22" rx="8" ry="11" fill="#0f172a" />
+      <!-- Stem -->
+      <rect x="18" y="28" width="10" height="38" rx="5" fill="#ffffff" stroke="#475569" stroke-width="2.5" />
+      <line x1="19" y1="62" x2="27" y2="62" stroke="#cbd5e1" stroke-width="2" />
+    </g>
+
+    <!-- Right Earbud -->
+    <g transform="translate(225, 75)">
+      <!-- Earbud head -->
+      <ellipse cx="28" cy="22" rx="18" ry="15" fill="#ffffff" stroke="#475569" stroke-width="2.5" />
+      <ellipse cx="24" cy="22" rx="8" ry="11" fill="#0f172a" />
+      <!-- Stem -->
+      <rect x="22" y="28" width="10" height="38" rx="5" fill="#ffffff" stroke="#475569" stroke-width="2.5" />
+      <line x1="23" y1="62" x2="31" y2="62" stroke="#cbd5e1" stroke-width="2" />
+    </g>
+  </g>
+  <text x="200" y="348" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="1">
+    EARBUDS &amp; AUDIO
+  </text>
+
+  <!-- Translated Photo Coming Soon Badge -->
+  <g transform="translate(60, 368)">
+    <rect width="280" height="22" rx="11" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <text x="140" y="15" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#64748b" text-anchor="middle">
+      Photo coming soon • تصویر جلد دستیاب ہوگی
+    </text>
+  </g>
+</svg>

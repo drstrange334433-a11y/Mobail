@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_watches" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <linearGradient id="screen_watches" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0891b2" stop-opacity="0.05" />
+    </linearGradient>
+    <filter id="shadow_watches" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg_watches)" />
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.6" />
+  
+  <!-- Smartwatch Graphic -->
+  <g filter="url(#shadow_watches)" transform="translate(145, 60)">
+    <!-- Top Strap -->
+    <rect x="25" y="0" width="60" height="65" rx="10" fill="#94a3b8" />
+    <line x1="35" y1="20" x2="75" y2="20" stroke="#64748b" stroke-width="2" />
+    <line x1="35" y1="35" x2="75" y2="35" stroke="#64748b" stroke-width="2" />
+    
+    <!-- Bottom Strap -->
+    <rect x="25" y="195" width="60" height="65" rx="10" fill="#94a3b8" />
+    <circle cx="55" cy="220" r="4" fill="#64748b" />
+    <circle cx="55" cy="236" r="4" fill="#64748b" />
+
+    <!-- Watch Case -->
+    <rect x="0" y="50" width="110" height="150" rx="34" fill="#ffffff" stroke="#475569" stroke-width="3" />
+    <!-- Digital Crown -->
+    <rect x="110" y="80" width="7" height="24" rx="3.5" fill="#475569" />
+    <rect x="110" y="125" width="5" height="20" rx="2.5" fill="#64748b" />
+    
+    <!-- Screen -->
+    <rect x="10" y="60" width="90" height="130" rx="24" fill="url(#screen_watches)" />
+    
+    <!-- Dial UI elements -->
+    <circle cx="55" cy="115" r="28" fill="none" stroke="#06b6d4" stroke-width="3" stroke-dasharray="120 40" stroke-linecap="round" />
+    <text x="55" y="112" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a" text-anchor="middle">10:09</text>
+    <text x="55" y="128" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#0284c7" text-anchor="middle">7,420</text>
+  </g>
+  <text x="200" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="1">
+    SMART WATCH
+  </text>
+
+  <!-- Translated Photo Coming Soon Badge -->
+  <g transform="translate(60, 368)">
+    <rect width="280" height="22" rx="11" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <text x="140" y="15" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#64748b" text-anchor="middle">
+      Photo coming soon • تصویر جلد دستیاب ہوگی
+    </text>
+  </g>
+</svg>

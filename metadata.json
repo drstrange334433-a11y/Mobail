@@ -1,0 +1,6 @@
+{
+  "name": "Paracha Mobile Shop",
+  "description": "Paracha Mobile Shop - Trust • Quality • Technology. Premium mobile phones, accessories, and warranty showcase with bilingual English/Urdu support and admin portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

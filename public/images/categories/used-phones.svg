@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_used" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="100%" stop-color="#fef3c7" />
+    </linearGradient>
+    <linearGradient id="screen_used" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.04" />
+    </linearGradient>
+    <filter id="shadow_used" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#78350f" flood-opacity="0.1" />
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg_used)" />
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#fcd34d" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.8" />
+  
+  <!-- Smartphone Graphic -->
+  <g filter="url(#shadow_used)" transform="translate(130, 65)">
+    <!-- Chassis -->
+    <rect x="0" y="0" width="140" height="260" rx="26" fill="#ffffff" stroke="#b45309" stroke-width="2" />
+    <!-- Screen -->
+    <rect x="7" y="9" width="126" height="242" rx="20" fill="url(#screen_used)" />
+    <!-- Notch / Island -->
+    <rect x="46" y="14" width="48" height="12" rx="6" fill="#1f2937" />
+    <!-- Home bar -->
+    <rect x="45" y="238" width="50" height="4" rx="2" fill="#78350f" />
+    
+    <!-- Certified Pre-Owned Seal / Badge -->
+    <g transform="translate(40, 95)">
+      <circle cx="30" cy="30" r="32" fill="#fef3c7" stroke="#d97706" stroke-width="2.5" />
+      <circle cx="30" cy="30" r="26" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="3 3" />
+      <path d="M20 30 L27 37 L40 23" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+  
+  <rect x="130" y="348" width="140" height="24" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" />
+  <text x="200" y="364" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle" letter-spacing="1">
+    CERTIFIED USED
+  </text>
+
+  <!-- Translated Photo Coming Soon Badge -->
+  <g transform="translate(60, 368)">
+    <rect width="280" height="22" rx="11" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <text x="140" y="15" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#64748b" text-anchor="middle">
+      Photo coming soon • تصویر جلد دستیاب ہوگی
+    </text>
+  </g>
+</svg>

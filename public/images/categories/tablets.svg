@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_tablets" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <linearGradient id="screen_tablets" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#4338ca" stop-opacity="0.04" />
+    </linearGradient>
+    <filter id="shadow_tablets" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg_tablets)" />
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.6" />
+  
+  <!-- Tablet Graphic (Landscape aspect ratio) -->
+  <g filter="url(#shadow_tablets)" transform="translate(85, 95)">
+    <!-- Chassis -->
+    <rect x="0" y="0" width="230" height="170" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="2.5" />
+    <!-- Screen -->
+    <rect x="10" y="10" width="210" height="150" rx="14" fill="url(#screen_tablets)" />
+    <!-- Camera -->
+    <circle cx="115" cy="5" r="3" fill="#0f172a" />
+    <!-- Inner design preview -->
+    <rect x="25" y="30" width="180" height="75" rx="10" fill="#6366f1" fill-opacity="0.08" />
+    <circle cx="65" cy="67" r="22" fill="#6366f1" fill-opacity="0.18" />
+    <!-- App icons mock -->
+    <rect x="105" y="48" width="85" height="8" rx="4" fill="#6366f1" fill-opacity="0.2" />
+    <rect x="105" y="64" width="60" height="8" rx="4" fill="#6366f1" fill-opacity="0.15" />
+    <rect x="105" y="80" width="45" height="8" rx="4" fill="#6366f1" fill-opacity="0.15" />
+    <!-- Home bar -->
+    <rect x="85" y="152" width="60" height="3" rx="1.5" fill="#64748b" />
+  </g>
+  <text x="200" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="1">
+    TABLET
+  </text>
+
+  <!-- Translated Photo Coming Soon Badge -->
+  <g transform="translate(60, 368)">
+    <rect width="280" height="22" rx="11" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <text x="140" y="15" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#64748b" text-anchor="middle">
+      Photo coming soon • تصویر جلد دستیاب ہوگی
+    </text>
+  </g>
+</svg>

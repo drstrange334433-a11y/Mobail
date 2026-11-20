@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="50%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="phoneGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#0c4a6e" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background container -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+
+  <!-- Subtle inner border -->
+  <rect x="8" y="8" width="496" height="496" rx="104" fill="none" stroke="#60a5fa" stroke-width="3" stroke-opacity="0.35" />
+
+  <!-- Phone Graphic with Shadow -->
+  <g filter="url(#shadow)">
+    <!-- Phone Outer Body -->
+    <rect x="146" y="80" width="220" height="352" rx="36" fill="#0f172a" stroke="#94a3b8" stroke-width="4" />
+    
+    <!-- Phone Glass Screen -->
+    <rect x="156" y="98" width="200" height="316" rx="26" fill="url(#screenGrad)" />
+    
+    <!-- Screen Glass Sheen -->
+    <path d="M 156 124 L 356 220 L 356 98 L 182 98 Z" fill="url(#phoneGlow)" />
+
+    <!-- Speaker / Notch Pill -->
+    <rect x="226" y="108" width="60" height="8" rx="4" fill="#0f172a" opacity="0.9" />
+
+    <!-- Brand 'P' Crest on Screen -->
+    <g transform="translate(256, 256)">
+      <!-- Central tech shield / badge -->
+      <circle cx="0" cy="0" r="48" fill="#ffffff" fill-opacity="0.12" stroke="#38bdf8" stroke-width="3" />
+      <!-- Letter P / Phone stylized emblem -->
+      <path d="M -16 26 L -16 -26 L 8 -26 C 22 -26 28 -16 28 -3 C 28 10 22 17 8 17 L -6 17 L -6 26 Z M -6 8 L 6 8 C 14 8 18 4 18 -3 C 18 -10 14 -16 6 -16 L -6 -16 Z" fill="#ffffff" />
+    </g>
+
+    <!-- Bottom navigation home bar -->
+    <rect x="220" y="398" width="72" height="5" rx="2.5" fill="#ffffff" opacity="0.6" />
+  </g>
+
+  <!-- Top Right Verified Cyan Status Dot -->
+  <circle cx="376" cy="110" r="16" fill="#38bdf8" stroke="#ffffff" stroke-width="4" />
+  <circle cx="376" cy="110" r="24" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.6" />
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_power" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <filter id="shadow_power" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg_power)" />
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.6" />
+  
+  <!-- Power Bank Graphic -->
+  <g filter="url(#shadow_power)" transform="translate(135, 75)">
+    <!-- Main Body -->
+    <rect x="0" y="0" width="130" height="230" rx="20" fill="#ffffff" stroke="#475569" stroke-width="2.5" />
+    <!-- Top port bar -->
+    <rect x="15" y="10" width="100" height="28" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5" />
+    <!-- USB-A Port -->
+    <rect x="25" y="18" width="22" height="12" rx="3" fill="#0f172a" />
+    <!-- USB-C Port -->
+    <rect x="58" y="20" width="18" height="8" rx="4" fill="#0f172a" />
+    <rect x="62" y="22" width="10" height="4" rx="2" fill="#38bdf8" />
+    <!-- USB-A Port 2 -->
+    <rect x="85" y="18" width="22" height="12" rx="3" fill="#0f172a" />
+
+    <!-- LED Capacity Indicators -->
+    <circle cx="45" cy="65" r="4" fill="#10b981" />
+    <circle cx="58" cy="65" r="4" fill="#10b981" />
+    <circle cx="71" cy="65" r="4" fill="#10b981" />
+    <circle cx="84" cy="65" r="4" fill="#10b981" />
+
+    <!-- Battery level icon representation -->
+    <rect x="40" y="100" width="50" height="85" rx="8" fill="none" stroke="#94a3b8" stroke-width="2.5" />
+    <rect x="55" y="93" width="20" height="7" rx="3" fill="#94a3b8" />
+    <!-- Battery Level fill -->
+    <rect x="46" y="125" width="38" height="52" rx="4" fill="#10b981" fill-opacity="0.2" />
+    <!-- Lightning Bolt inside battery -->
+    <polygon points="65,130 58,150 66,150 63,168 74,146 66,146" fill="#10b981" />
+  </g>
+  <text x="200" y="352" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="1">
+    POWER BANK
+  </text>
+
+  <!-- Translated Photo Coming Soon Badge -->
+  <g transform="translate(60, 368)">
+    <rect width="280" height="22" rx="11" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <text x="140" y="15" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#64748b" text-anchor="middle">
+      Photo coming soon • تصویر جلد دستیاب ہوگی
+    </text>
+  </g>
+</svg>
